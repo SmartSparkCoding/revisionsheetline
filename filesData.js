@@ -2,27 +2,15 @@
 // Each file value must match a real file name in the /files folder.
 window.REVISION_FILES = [
   {
-    subject: "Math",
-    name: "Algebra Foundations",
+    subject: "Physics",
+    name: "P2 Revision Sheet",
     date: "2026-04-05",
-    file: "math-algebra-foundations.pdf"
+    file: "physics-p2-revision-sheet.docx"
   },
   {
-    subject: "Math",
-    name: "Geometry Key Theorems",
+    subject: "Physics",
+    name: "P3 Revision Sheet",
     date: "2026-04-08",
-    file: "math-geometry-key-theorems.docx"
-  },
-  {
-    subject: "Science",
-    name: "Cell Biology Summary",
-    date: "2026-04-02",
-    file: "science-cell-biology-summary.pptx"
-  },
-  {
-    subject: "English",
-    name: "Poetry Revision Notes",
-    date: "2026-03-31",
-    file: "english-poetry-revision-notes.txt"
+    file: "physics-p3-revision-sheet.docx"
   }
 ];
