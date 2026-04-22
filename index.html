@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revision Sheet Line</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Download Hub</p>
+        <h1>Revision Sheet Line</h1>
+        <p class="subtitle">
+          Choose a subject to view available revision sheets and download files.
+        </p>
+      </header>
+
+      <main class="content">
+        <section class="panel">
+          <h2>Subjects</h2>
+          <div id="subjectList" class="subject-list" aria-label="Subject choices"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2 id="sheetTitle">Revision Sheets</h2>
+            <p id="sheetCount" class="sheet-count"></p>
+          </div>
+          <div id="sheetList" class="sheet-list" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">Created by SmartSparkCoding.</footer>
+
+    <script src="filesData.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
