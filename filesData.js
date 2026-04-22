@@ -24,5 +24,11 @@ window.REVISION_FILES = [
     name: "Video - The Particle Story (Credit: NotebookLM)",
     date: "2026-02-10",
     file: "The_Particle_Story 1.mp4"
+  },
+  {
+    subject: "Computer Science",
+    name: "How is data stored on a computer? Revision Sheet",
+    date: "2026-01-13",
+    file: "Computer Science Revision Sheet.docx"
   }
 ];
