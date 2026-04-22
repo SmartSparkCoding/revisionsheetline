@@ -18,5 +18,11 @@ window.REVISION_FILES = [
     name: "Atoms and Elements Revision Sheet",
     date: "2026-02-20",
     file: "Chemistry Knowledge Organiser - Atoms and Elements.docx"
+  },
+  {
+    subject: "Chemistry",
+    name: "Video - The Particle Story (Credit: NotebookLM)",
+    date: "2026-02-10",
+    file: "The_Particle_Story 1.mp4"
   }
 ];
