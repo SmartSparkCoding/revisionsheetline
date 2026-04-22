@@ -12,5 +12,11 @@ window.REVISION_FILES = [
     name: "P3 Revision Sheet",
     date: "2026-04-22",
     file: "physics-p3-revision-sheet.docx"
+  },
+  {
+    subject: "Chemistry",
+    name: "Atoms and Elements Revision Sheet",
+    date: "2026-02-20",
+    file: "Chemistry Knowledge Organiser - Atoms and Elements.docx"
   }
 ];
