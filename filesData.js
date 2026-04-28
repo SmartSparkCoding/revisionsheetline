@@ -30,5 +30,17 @@ window.REVISION_FILES = [
     name: "How is data stored on a computer? Revision Sheet",
     date: "2026-01-13",
     file: "Computer Science Revision Sheet.docx"
+  },
+  {
+    subject: "Music",
+    name: "Video - Computer and Video Game Music (Credit: NotebookLM)",
+    date: "2026-04-27",
+    file: "computer-video.mp4"
+  },
+  {
+    subject: "Music",
+    name: "PDF - Computer and Video Game Music (Credit: NotebookLM)",
+    date: "2026-04-27",
+    file: "computervideo.pdf"
   }
 ];
