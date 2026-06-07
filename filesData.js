@@ -42,5 +42,11 @@ window.REVISION_FILES = [
     name: "PDF - Computer and Video Game Music (Credit: NotebookLM)",
     date: "2026-04-27",
     file: "computervideo.pdf"
+  },
+  {
+    subject: "Working Scientifically",
+    name: "WS1 Revision Sheet",
+    date: "2026-06-07",
+    file: "WS1.docx"
   }
 ];
