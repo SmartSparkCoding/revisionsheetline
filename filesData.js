@@ -45,7 +45,7 @@ window.REVISION_FILES = [
   },
   {
     subject: "Working Scientifically",
-    name: "WS1 Revision Sheet",
+    name: "WS1 - Scientific Thinking | Revision Sheet",
     date: "2026-06-07",
     file: "WS1.docx"
   }
