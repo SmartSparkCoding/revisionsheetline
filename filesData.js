@@ -48,5 +48,11 @@ window.REVISION_FILES = [
     name: "WS1 - Scientific Thinking | Revision Sheet",
     date: "2026-06-07",
     file: "WS1.docx"
+  },
+  {
+    subject: "Physics",
+    name: "P4 - Revision Sheet",
+    date: "2026-06-11",
+    file: "P4 Electric Circuits - Knowledge Organiser.docx"
   }
 ];
