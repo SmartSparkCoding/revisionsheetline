@@ -51,7 +51,7 @@ window.REVISION_FILES = [
   },
   {
     subject: "Physics",
-    name: "P4 - Revision Sheet",
+    name: "P4 Revision Sheet",
     date: "2026-06-11",
     file: "P4 Electric Circuits - Knowledge Organiser.docx"
   }
