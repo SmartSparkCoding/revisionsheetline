@@ -54,5 +54,11 @@ window.REVISION_FILES = [
     name: "P4 Revision Sheet",
     date: "2026-06-11",
     file: "P4 Electric Circuits - Knowledge Organiser.docx"
+  },
+  {
+    subject: "Physics",
+    name: "P4 Revision Video (Credit: NotebookLM)",
+    date: "2026-06-11",
+    file: "Electric_Circuits.mp4"
   }
 ];
