@@ -35,7 +35,7 @@ body.pin-locked {
 
 body.pin-locked .page-shell,
 body.pin-locked .site-footer {
-  filter: grayscale(0.2);
+  filter: grayscale(0.6);
   opacity: 0.35;
   pointer-events: none;
   user-select: none;
