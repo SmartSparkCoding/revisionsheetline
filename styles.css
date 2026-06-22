@@ -9,6 +9,7 @@
   --text-main: #12312c;
   --text-soft: #487069;
   --shadow: 0 10px 25px rgba(11, 59, 54, 0.12);
+  --overlay-bg: rgba(40, 48, 46, 0.62);
 }
 
 * {
@@ -36,7 +37,7 @@ body.pin-locked {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  background: rgba(40, 48, 46, 0.62);
+  background: var(--overlay-bg);
   display: grid;
   place-items: center;
   padding: 1rem;

@@ -6,12 +6,11 @@
   const accessPin = "150217";
 
   if (pinGate && pinForm && pinInput && pinError) {
-    pinInput.focus();
-
     pinForm.addEventListener("submit", function (event) {
       event.preventDefault();
 
       if (pinInput.value === accessPin) {
+        pinGate.setAttribute("aria-hidden", "true");
         pinGate.hidden = true;
         pinError.textContent = "";
         document.body.classList.remove("pin-locked");
