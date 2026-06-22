@@ -33,14 +33,24 @@ body.pin-locked {
   overflow: hidden;
 }
 
+body.pin-locked .page-shell,
+body.pin-locked .site-footer {
+  filter: grayscale(0.2);
+  opacity: 0.35;
+  pointer-events: none;
+  user-select: none;
+}
+
 .pin-overlay {
   position: fixed;
   inset: 0;
   z-index: 1000;
   background: var(--overlay-bg);
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem;
+  backdrop-filter: blur(2px);
 }
 
 .pin-card {
