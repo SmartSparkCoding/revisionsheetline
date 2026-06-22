@@ -28,6 +28,73 @@ body {
   grid-template-rows: 1fr auto;
 }
 
+body.pin-locked {
+  overflow: hidden;
+}
+
+.pin-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(40, 48, 46, 0.62);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.pin-card {
+  width: min(360px, 100%);
+  background: var(--surface);
+  border-radius: 1rem;
+  border: 1px solid #d2ebe5;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.pin-card h2,
+.pin-card p {
+  margin: 0;
+}
+
+.pin-help {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.pin-card label {
+  font-weight: 500;
+}
+
+.pin-card input {
+  border: 1px solid #bfddd6;
+  border-radius: 0.62rem;
+  padding: 0.55rem 0.65rem;
+  font: inherit;
+}
+
+.pin-card button {
+  border: none;
+  border-radius: 0.62rem;
+  padding: 0.55rem 0.8rem;
+  font: inherit;
+  font-weight: 500;
+  color: #ffffff;
+  background: var(--teal-700);
+  cursor: pointer;
+}
+
+.pin-card button:hover {
+  background: var(--teal-800);
+}
+
+.pin-error {
+  min-height: 1.2em;
+  color: #b42318;
+  font-size: 0.9rem;
+}
+
 .page-shell {
   width: min(1080px, 92vw);
   margin: 2.5rem auto;

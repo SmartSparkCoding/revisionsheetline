@@ -61,7 +61,25 @@
 }
 </script>
   </head>
-  <body>
+  <body class="pin-locked">
+    <div id="pinGate" class="pin-overlay" role="dialog" aria-modal="true" aria-labelledby="pinGateTitle">
+      <form id="pinForm" class="pin-card">
+        <h2 id="pinGateTitle">Enter PIN</h2>
+        <p class="pin-help">Please enter the access PIN to continue.</p>
+        <label for="pinInput">PIN</label>
+        <input
+          id="pinInput"
+          name="pin"
+          type="password"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Unlock</button>
+        <p id="pinError" class="pin-error" aria-live="polite"></p>
+      </form>
+    </div>
     <div class="page-shell">
       <header class="hero">
         <p class="eyebrow">Download Hub</p>
