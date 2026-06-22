@@ -1,4 +1,28 @@
 (function () {
+  const pinGate = document.getElementById("pinGate");
+  const pinForm = document.getElementById("pinForm");
+  const pinInput = document.getElementById("pinInput");
+  const pinError = document.getElementById("pinError");
+  const accessPin = "150217";
+
+  if (pinGate && pinForm && pinInput && pinError) {
+    pinForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      if (pinInput.value === accessPin) {
+        pinGate.setAttribute("aria-hidden", "true");
+        pinGate.hidden = true;
+        pinError.textContent = "";
+        document.body.classList.remove("pin-locked");
+        return;
+      }
+
+      pinError.textContent = "Incorrect PIN. Please try again.";
+      pinInput.focus();
+      pinInput.select();
+    });
+  }
+
   const subjectList = document.getElementById("subjectList");
   const sheetList = document.getElementById("sheetList");
   const sheetTitle = document.getElementById("sheetTitle");
